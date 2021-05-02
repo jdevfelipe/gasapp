@@ -1,6 +1,7 @@
 
 # About Gasapp!
 **ATENTION!**, http://www.anp.gov.br/ is consumed in this project to consume prices and stations.
+**ATENTION!**, change in constants.java file the key to jwt, and fill all application.properties files to connect in your databases
 
 **Gasapp** is an open source API to run and consume Brazilian fuel prices, you can use it to consume prices as a json format and show in your application. **Gasapp**  also is an application to improve some topics from your creator, me! haha per example:
 
