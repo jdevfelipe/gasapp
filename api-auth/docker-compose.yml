@@ -1,0 +1,14 @@
+version: '3.4'
+services:
+  api-auth:
+    image: api-auth
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /
+    environment:
+      TZ: America/Sao_Paulo    
+    ports:
+      - "8084:8084"
+    command: mvn spring-boot:run
